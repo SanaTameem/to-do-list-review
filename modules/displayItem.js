@@ -1,9 +1,9 @@
-// eslint-disable-next-line
+
 import { createTaskElement } from './createItem.js';
 const toDoInput = document.querySelector('.todo-input');
 export const toDoList = document.querySelector('.todo-list');
 const enterBtn = document.querySelector('.enter-btn');
-// eslint-disable-next-line
+
 export let arrayOfTasks = JSON.parse(localStorage.getItem('arrayOfTasks')) || [];
 // Function to display tasks
 export const displayTasks = () => {
