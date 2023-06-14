@@ -1,4 +1,4 @@
-
+// eslint-disable-next-line
 import { deleteTask, arrayOfTasks, clearAll } from './displayItem.js';
 import statusUpdate from './statusUpdate.js';
 
